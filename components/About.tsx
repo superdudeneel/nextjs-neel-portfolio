@@ -23,25 +23,25 @@ const About = () => {
             <div className="flex flex-wrap justify-center gap-6 mt-10">
   {/* Image 1 */}
             <div className="bg-white shadow-lg p-4 rounded-md w-60 rotate-[-3deg]">
-                <img src="/IMG_6969.jpg" alt="Desk Setup" className="rounded" />
+                <Image width = '200' height = {200} src="/IMG_6969.jpg" alt="Desk Setup" className="rounded" />
                 <p className="text-center text-sm mt-2 text-gray-700">Rajaji National Park</p>
             </div>
 
             {/* Image 2 */}
             <div className="bg-white shadow-lg p-4 rounded-md w-60 rotate-[4deg]">
-                <img src="/IMG_7298.jpg" alt="Winter" className="rounded" />
+                <Image width = '200' height = {200} src="/IMG_7298.jpg" alt="Winter" className="rounded" />
                 <p className="text-center text-sm mt-2 text-gray-700">Mussorie</p>
             </div>
 
             {/* Image 3 */}
             <div className="bg-white shadow-lg p-4 rounded-md w-60 rotate-[2deg]">
-                <img src="/IMG_9672.jpg" alt="City" className="rounded" />
+                <Image  width = {200} height = {230} src="/IMG_9672.jpg" alt="City" className="rounded" />
                 <p className="text-center text-sm mt-2 text-gray-700">Urban Vibes</p>
             </div>
 
             {/* Image 4 */}
             <div className="bg-white shadow-lg p-4 rounded-md w-60 rotate-[-5deg]">
-                <img src="/IMG_2024.jpg" alt="Mountains" className="rounded" />
+                <Image width = '200' height = {230} src="/IMG_2024.jpg" alt="Mountains" className="rounded" />
                 <p className="text-center text-sm mt-2 text-gray-700">Into the wild</p>
             </div>
             </div>

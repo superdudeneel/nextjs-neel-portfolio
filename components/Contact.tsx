@@ -1,7 +1,7 @@
 "use client"
 
 import React from 'react'
-import {useState , useEffect} from 'react';
+import {useState} from 'react';
 import toast, { Toaster } from 'react-hot-toast';
 
 const Contact = () => {
@@ -9,11 +9,6 @@ const Contact = () => {
     const [name, setname] = useState<string>('');
     const [email, setemail] = useState<string>('');
     const [message, setmessage] = useState<string>('');
-
-    const handlesubmit = (e: React.FormEvent<HTMLFormElement>)=>{
-        e.preventDefault();
-        
-    }
   return (
     <div className="flex flex-col items-center mt-20 px-4 w-2xl">
         <Toaster />

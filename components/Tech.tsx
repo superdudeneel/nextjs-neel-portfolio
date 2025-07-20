@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link';
 import Image from 'next/image';
 
 const Tech = () => {
@@ -14,7 +13,9 @@ const Tech = () => {
     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 items-center justify-center">
       {/* React */}
       <div className="flex flex-col items-center space-y-2">
-        <img
+        <Image
+          width = '12'
+          height = '12'
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
           alt="React"
           className="w-12 h-12"
@@ -24,7 +25,9 @@ const Tech = () => {
 
       {/* Next.js */}
       <div className="flex flex-col items-center space-y-2">
-        <img
+        <Image
+          width = '12'
+          height = '12'
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
           alt="Next.js"
           className="w-12 h-12 bg-white rounded"
@@ -33,7 +36,9 @@ const Tech = () => {
       </div>
       {/* Node.js */}
       <div className="flex flex-col items-center space-y-2">
-        <img
+        <Image
+          width = '12'
+          height = '12'
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
           alt="Node.js"
           className="w-12 h-12"
@@ -43,7 +48,9 @@ const Tech = () => {
 
       {/* MongoDB */}
       <div className="flex flex-col items-center space-y-2">
-        <img
+        <Image
+          width = '12'
+          height = '12'
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
           alt="MongoDB"
           className="w-12 h-12"
@@ -53,9 +60,11 @@ const Tech = () => {
 
       {/* Express */}
       <div className="flex flex-col items-center space-y-2">
-        <img
+        <Image
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
           alt="Express"
+          width = '12'
+          height = '12'
           className="w-12 h-12 bg-white rounded"
         />
         <p className="text-sm text-gray-700">Express</p>
@@ -63,7 +72,9 @@ const Tech = () => {
 
       {/* TypeScript */}
       <div className="flex flex-col items-center space-y-2">
-        <img
+        <Image
+          width = '12'
+          height = '12'
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
           alt="TypeScript"
           className="w-12 h-12"
@@ -73,7 +84,9 @@ const Tech = () => {
 
       {/* Git/GitHub */}
       <div className="flex flex-col items-center space-y-2">
-        <img
+        <Image
+          width = '12'
+          height = '12'
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
           alt="GitHub"
           className="w-12 h-12 bg-white rounded"

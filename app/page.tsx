@@ -2,7 +2,6 @@ import About from "@/components/About";
 import Navbar from "@/components/Navbar";
 import Profile from "@/components/Profile";
 import Tech from "@/components/Tech";
-import Image from "next/image";
 
 export default function Home() {
   return (

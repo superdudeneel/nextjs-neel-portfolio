@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image';
-import Link from 'next/link';
 
 const Profile = () => {
   return (
@@ -14,12 +13,12 @@ const Profile = () => {
       />
 
       <div className="space-y-2">
-        <h1 className="font-sans font-semibold text-gray-900 text-4xl">Hey, I'm Neel.</h1>
+        <h1 className="font-sans font-semibold text-gray-900 text-4xl">Hey, I&apos;m Neel.</h1>
         <h2 className="font-sans  text-gray-700 text-4xl">Engineer & Photographer</h2>
       </div>
 
       <div className="flex flex-col items-start space-y-2 max-w-2xl text-gray-600 text-base leading-relaxed">
-        <p>Most engineers don’t see the world through a lens. Most photographers don’t think in systems. I do both.</p>
+        <p>Most engineers don&apos;st see the world through a lens. Most photographers don&apos;st think in systems. I do both.</p>
         <p>Currently at IIT Roorkee.</p>
       </div>
       <div className = 'flex items-center gap-6'>
